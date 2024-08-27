@@ -12,7 +12,8 @@ import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import QuickBook from "./components/QuickBook";
 import NavDesktop from "./components/NavDesktop";
-
+import DesktopBooking from "./components/DesktopBooking";
+import FooterDesktop from "./components/FooterDesktop";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
     <Navbar/>
     <NavDesktop className={styles.navDesktop}/>
    <Download/>
+   <DesktopBooking/>
    <div className={styles.ButtonContainer}>
    <Button height={38} width={160} name='book a car' backgroundColor='#E21E26' color='white' border='none'/>
    <Button height={38} width={160} name='quick book' backgroundColor='white' color='black' border='1px solid red'/>
@@ -27,12 +29,15 @@ export default function Home() {
    {/* <QuickBook/> */}
    <MainImage/>
    <Card/>
+   <div className={styles.subscriptionAdvertisement}>
    <Subscription/>
    <Advertisement/>
+   </div>
    <Rent/>
    <Location/>
    <Faq/>
    <Footer/>
+   <FooterDesktop/>
     </div>
   );
 }

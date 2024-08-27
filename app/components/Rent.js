@@ -7,7 +7,7 @@ const Rent = ()=>{
         <div className={styles.rentContainerTitle}>
             <span>Rent/Lease in 3 Easy Steps</span>
         </div>
-
+            <div className={styles.rentCardFlex}>
         {rentData.map((card,cardIndex)=>(
 
         
@@ -26,6 +26,7 @@ const Rent = ()=>{
         </div>
 
 ))}
+</div>
         
     </div>)
 }

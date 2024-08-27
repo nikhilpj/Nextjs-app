@@ -27,7 +27,7 @@ const Faq = ()=>{
             <hr className={styles.hr}/>
         <div className={styles.buttonFlex} onClick={()=>toggleAccordian(index)}>
         {/* <button class={styles.accordionButton}>What is my eligibility to book a car?</button> */}
-            <Button height={38} width={238} name={data.question} backgroundColor='white' color='black' border='none' fontWeight='400' fontSize='13px'/>
+            <Button height={38} width={238} name={data.question} backgroundColor='white' color='black' border='none' fontWeight='400' fontSize='13px' className={styles.faqButton}/>
             <Image src={activeIndex === index ? 'xmark.svg':'plus.svg'} width={14} height={14} className={styles.faqImage} />
             </div>
             {activeIndex === index && (

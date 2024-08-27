@@ -1,6 +1,6 @@
 
 
-const Button = ({width,height,backgroundColor,color,name,border,fontWeight,fontSize})=>{
+const Button = ({width,height,backgroundColor,color,name,border,fontWeight,fontSize,borderRadius})=>{
     const buttonStyles = {
         width: `${width}px`, 
         height: `${height}px`, 
@@ -8,7 +8,7 @@ const Button = ({width,height,backgroundColor,color,name,border,fontWeight,fontS
         color: color,
         border:border,
         marginRight:'10px',
-        borderRadius:'4px',
+        borderRadius:`${borderRadius}px`,
         fontWeight:fontWeight,
         fontSize:fontSize
          

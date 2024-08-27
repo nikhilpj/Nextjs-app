@@ -481,6 +481,21 @@
   display: none;
 }
 
+.desktopBookingContainer{
+  display: none;
+}
+
+.buttonDesktop{
+  display: none;
+}
+
+.advertisementImageDetailsDesktop{
+  display: none;
+}
+
+.footerDesktop{
+  display: none;
+}
 
 
 @media (min-width:700px){
@@ -503,5 +518,554 @@
     margin-right: 16px; /* Adjust the value as needed */
   }
 
+  .navDesktopLogo{
+    display: flex;
+   
+  }
+
+  .navDesktopLogoImage{
+    margin-left: 60px;
+  }
+
+  .navDesktopIcons{
+    margin-left: 190px;
+    
+  }
+
+  .navDesktopIcons a{
+    margin-right: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: black;
+  }
+
+  .user{
+    margin-left: 15px;
+    margin-top: 2px;
+  }
+
+ .navDesktopPara{
   
+  width: 750px;
+  height: 15px;
+  font-size: 9px;
+  opacity: 50%;
+  text-align: center;
+  margin-left: 490px;
+ }
+
+ .desktopBooking{
+  width: 1130px;
+  height: 227px;
+  background-color: #e21e26;
+  border-radius: 20px;
+ }
+
+ .desktopBookingContainer{
+  display:block;
+  margin-left: 64px;
+  
+}
+.downloadContainer{
+  display: none;
+}
+
+.mainImage {
+  width: 89%;
+  height: 405px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 64px;
+}
+
+.ButtonContainer{
+  display: none;
+}
+
+.cardContainer {
+  height: 370px;
+  width: 100%;
+  margin-top: 24px;
+  margin-left: 16px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+
+.carCard{
+  display: flex;
+  width: 900px;
+  height: 290px;
+  
+}
+
+.cardImage{
+  width: 350px;
+  height: 290px;
+  
+}
+
+.cardTitle {
+  width: 100%;
+  height: 52px;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 52px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.cardScroll {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.cardDetails{
+  width:350px ;
+  height: 290px;
+  padding-left: 25px;
+  
+  
+}
+
+.carTitle{
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  width: 248px;
+  margin-bottom: 25px;
+}
+
+.carDescription{
+  width: 298px;
+  height: 37px;
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 72px;
+}
+
+.cardIcons{
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16.5px;
+  padding-right: 24px;
+}
+
+.cardIcons span{
+margin-right: 24px;
+margin-left: 10px;
+}
+
+.price{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: 152px;
+  height: 24px;
+  margin-right: 30px;
+}
+
+.cardPriceButton{
+  display: flex;
+  margin-top: 35px;
+}
+
+.card{
+ 
+  width: 100%;
+  height: 290px;
+  display: flex;
+  gap: 30px;
+}
+
+.subscriptionAdvertisement{
+  display: flex;
+  margin-top: 40px;
+}
+
+.subscriptionContainer{
+  width: 550px;
+  
+  height: 400px;
+  margin-top: 24px;
+  margin-left: 16px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.subscriptionTitle{
+width: 550px;
+height: 100px;
+font-weight: 400;
+font-size: 34px;
+line-height: 51px;
+margin-bottom: 40px;
+}
+
+.input{
+  display: flex;
+  
+}
+
+.input input{
+  width: 223px;
+  height: 45px;
+  margin-right: 20px;
+}
+
+.subscriptionParagraph{
+  width: 478px;
+  height: 42px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.buttonDesktop{
+  display: block;
+}
+
+.advertisement{
+  width: 644px;
+  height: 506px;
+}
+
+.buttonMobile{
+  display: none;
+}
+
+.advertisementImage img{
+  width: 231px;
+  height: 440px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.advertisementImageDetails{
+  display: none;
+}
+
+.advertisementInput{
+  display: none;
+}
+
+.advertisementButton{
+  display: none;
+}
+
+.advertisementImageDetailsDesktop{
+  display: block;
+  margin-top: 99px;
+
+}
+
+.advertisementImageDetailsDesktop span{
+font-weight: 500;
+font-size: 14px;
+line-height: 21.5px;
+color: white;
+
+
+}
+
+.advertisementImageDetailsDesktopPara{
+  width: 233px;
+  height: 43px;
+ 
+}
+.advertisementInputMobile{
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 23px;
+}
+.advertisementInputMobile input{
+  width: 263px;
+  height: 45px;
+  
+  background-color: #f8f8f8;
+  padding: 12px;
+  border: none;
+}
+
+.advertisementDesktopSpan{
+  width: 63px;
+  height: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 35px;
+  margin-bottom: 16px;
+}
+
+.rentContainerTitle{
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 51px;
+  width: 518px;
+  height: 51px;
+  margin-left: 380px;
+  margin-bottom: 30px;
+}
+
+.rentContainer {
+  margin-top: 24px;
+  margin-left: 46px;
+}
+
+
+
+.rentCard {
+  height: 225px;
+  width: 328px;
+  margin-top: 16px;
+  margin-right: 68px;
+  
+}
+
+.orderIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.orderIcon img{
+  width: 64px;
+  height: 52px;
+}
+
+.subCard {
+  width: 348px;
+  height: 178px;
+  border: 1px solid #000000;
+  text-align: center;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.subCard span {
+  width: 210.8px;
+  height: 75.9px;
+  opacity: 80%;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.5px;
+}
+
+.subCardImage {
+  margin-top: 15.8px;
+  margin-bottom: 22.99px;
+}
+
+.subCardContent {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.rentCardFlex{
+  display: flex;
+}
+
+.subCard img{
+  width: 38px;
+  height: 46px;
+}
+
+.locationContainer {
+  width: 1150px;
+  height: 325px;
+  background-color: #000000;
+  margin-left: 41px;
+  margin-top: 80px;
+  color: white;
+}
+
+.locationTitle {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 51px;
+  color: #ffffff;
+  padding-top: 56px;
+  margin-left: 16px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+.locations {
+  display: flex;
+
+  margin-right: 90px;
+  margin-left: 20px;
+}
+
+.locationSpan {
+  opacity: 80%;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.locationDetails {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16px;
+}
+
+.locationImage img{
+  width: 22.24px;
+  height: 29px;
+}
+
+.faqContainerTitle{
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  width: 500px;
+  height: 35px;
+  margin-left: 365px;
+  margin-bottom: 69px;
+}
+
+.faqContainer{
+  margin-top: 56px;
+  margin-bottom: 90px;
+}
+
+.faqButton{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.faqImage {
+  margin-left: 635px;
+}
+
+.buttonFlex img{
+width: 24px;
+height: 24px;
+}
+
+.buttonFlex{
+  padding: 10px;
+}
+
+.accordionContent{
+  padding-left: 10px;
+}
+.footerDesktop{
+  display: flex;
+  width: 100%;
+  height: 303px;
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+}
+
+.footerContainer{
+  display: none;
+}
+
+.footerDesktopSection1{
+  width: 105px;
+  height: 86px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 60px;
+  margin-left: 25px;
+}
+
+.footerDesktopSection2Links a{
+color: white;
+font-weight: 500;
+font-size: 13px;
+text-decoration: none;
+margin-right: 40px;
+
+}
+
+.footerDesktopSection2Links{
+  padding-bottom: 20px;
+}
+
+.footerDesktopSection3SocialMedia img{
+  margin-right : 20px;
+  margin-top: 20px;
+
+}
+
+.safety{
+  margin-top: 20px;
+}
+
+.footerDesktopSection3{
+  margin-left: 35px;
+}
+
+.footerDesktopCopyright{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.desktopBookingButtonFlex{
+  display: flex;
+  margin-left: 20px;
+  padding-right: 50px;
+}
+
+.DesktopBookingDate{
+ 
+ 
+}
+.desktopBookingValues{
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+.desktopBookingValuesButton{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.desktopBookingValuesDateTime{
+  margin-right: 10px;
+}
+
+.desktopBookingValuesImage{
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.desktopBookingLine{
+  margin-top: 10px;
+}
+
+.quickBookButton{
+  margin-top: 10px;
+}
+
+.desktopBookingValues2{
+  color: white;
+  margin-top: 35px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.desktopBookingValues2Span{
+  width: 457px;
+  height: 21px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.desktopBookingValues2Image img{
+  margin-right: 20px;
+}
+
 } 

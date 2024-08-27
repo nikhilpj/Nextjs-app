@@ -13,12 +13,33 @@ const Subscription = () => {
       </div>
       <div className={styles.subscriptionParagraph}>
         <p>
-          Please select the ways you would like to hear from Diamondlease, and
-          confirm that you’re happy for us to store your data in line with our
-          Privacy Policy.
+          Don't miss out! enter your email and your name, then hit subscribe to
+          unlock a world of special offers and details.
         </p>
       </div>
-        <Button height={38} width={128} name='Subscribe' backgroundColor='#E21E26' color='white' border='none' />
+     <div className={styles.buttonMobile}>
+     <Button
+        height={38}
+        width={128}
+        name="Subscribe"
+        backgroundColor="#E21E26"
+        color="white"
+        border="none"
+        borderRadius={4}
+      />
+     </div>
+     
+       <div className={styles.buttonDesktop}>
+       <Button
+        height={57}
+        width={464}
+        name="Subscribe"
+        backgroundColor="#E21E26"
+        color="white"
+        border="none"
+        borderRadius={4}
+      />
+      </div>
     </div>
   );
 };

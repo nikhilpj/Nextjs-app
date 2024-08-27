@@ -18,6 +18,7 @@ const QuickBook = () => {
           backgroundColor="white"
           color="black"
           border="none"
+          borderRadius={4}
         />
         <div className={styles.sameAsPickupValues}>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -35,6 +36,7 @@ const QuickBook = () => {
           backgroundColor="white"
           color="black"
           border="none"
+          borderRadius={4}
         />
       </div>
       <div className={styles.vehicleType}>
@@ -43,7 +45,9 @@ const QuickBook = () => {
           name="Vehile type"
           backgroundColor="white"
           color="black"
-          border="none"/>
+          border="none"
+          borderRadius={4}/>
+          
       </div>
       
     </div>
