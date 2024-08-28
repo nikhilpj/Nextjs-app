@@ -6,7 +6,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { colors } from "@mui/material";
 
-const DateTime=({label,backgroundColor,width,height,color,borderRadius,border})=>{
+const DateTime=({label,backgroundColor,width,height,borderRadius,border})=>{
     return (<>
     <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DemoContainer components={["DateTimePicker"]}>
@@ -16,10 +16,12 @@ const DateTime=({label,backgroundColor,width,height,color,borderRadius,border})=
                     backgroundColor:`${backgroundColor}`,
                     width:`${width}px`,
                     height:`${height}px`,
-                    color:`${color}`,
+                    color:'black',
                     borderRadius:`${borderRadius}`,
                     border:`${border}`,
-                    overflow:'hidden'
+                    overflow:'hidden',
+                    padding:'5px'
+
                 }
             })
           }}/>

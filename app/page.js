@@ -1,3 +1,4 @@
+'use client'
 import Download from "./components/Download";
 import Navbar from "./components/navbar";
 import Button from "./components/Button";
@@ -14,8 +15,16 @@ import QuickBook from "./components/QuickBook";
 import NavDesktop from "./components/NavDesktop";
 import DesktopBooking from "./components/DesktopBooking";
 import FooterDesktop from "./components/FooterDesktop";
+import { useState } from "react";
 
 export default function Home() {
+
+  const [showQuickBook, setShowQuickBook] = useState(false)
+
+  const handleQuickBookClick = ()=>{
+    setShowQuickBook(!showQuickBook)
+  }
+
   return (
     <div>
     <Navbar/>
@@ -24,9 +33,13 @@ export default function Home() {
    <DesktopBooking/>
    <div className={styles.ButtonContainer}>
    <Button height={38} width={160} name='book a car' backgroundColor='#E21E26' color='white' border='none'/>
-   <Button height={38} width={160} name='quick book' backgroundColor='white' color='black' border='1px solid red'/>
+   <Button height={38} width={160} name='quick book' backgroundColor='white' color='black'
+   onClick={handleQuickBookClick} border='1px solid red'/>
    </div>
-   {/* <QuickBook/> */}
+   {showQuickBook && <div className={styles.quickBookComponent}>
+   <QuickBook/>
+   </div>}
+   
    <MainImage/>
    <Card/>
    <div className={styles.subscriptionAdvertisement}>

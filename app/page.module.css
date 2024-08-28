@@ -469,7 +469,7 @@
   margin-bottom: 10px;
 }
 
-.quickBookContainer{
+.quickBookContainerValues{
   display: flex;
 }
 
@@ -495,6 +495,19 @@
 
 .footerDesktop{
   display: none;
+}
+
+.differentDropOffContainer{
+margin-left: 20px;
+}
+
+.sameAsPickupValues{
+  padding-left: 20px;
+}
+
+.subscribeButton{
+  margin-top: 15px;
+  margin-left: 60px;
 }
 
 
@@ -1067,5 +1080,13 @@ margin-right: 40px;
 .desktopBookingValues2Image img{
   margin-right: 20px;
 }
+
+.quickBookComponent{
+  display: none;
+}
+
+
+
+
 
 } 
